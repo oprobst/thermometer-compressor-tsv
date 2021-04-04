@@ -39,11 +39,13 @@ Goal is to keep the amount of soldered component small and to use standardized p
 * [12V buzzer](https://www.conrad.de/de/p/tru-components-1567766-piezo-signalgeber-geraeusch-entwicklung-105-db-spannung-12-v-intervallton-1-st-1567766.html)
 
 ### On Board
+|  ID  | Description |
+| --- | -------- |
 | R1 | 4,7 kOhm |
 | R2 | 150 Ohm  |
 | R3 | 10 kOhm  |
 | R4 | 10 kOhm Potentiometer (optional) If display circuit has none included |
-| [N-Channel Mosfet](https://www.conrad.de/de/p/infineon-technologies-irlz44npbf-mosfet-1-hexfet-110-w-to-220-162877.html)| 5V Logic-Level Gate Drive |
+| U1 | [N-Channel Mosfet](https://www.conrad.de/de/p/infineon-technologies-irlz44npbf-mosfet-1-hexfet-110-w-to-220-162877.html) with 5V Logic-Level Gate |
 | IC1 | 7805 Linear Regulator or 5V Output DC/DC Regulator |
 | C1 | 330 nF Ceramic Condensator |
 | C2 | 100 nF Ceramic Condensator |
